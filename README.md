@@ -1,15 +1,3 @@
-# Turborepo react-native starter
-
-This is a community-maintained example. If you experience a problem, please submit a pull request with a fix. GitHub Issues will be closed.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest -e with-react-native-web
-```
-
 ## What's inside?
 
 This Turborepo includes the following packages/apps:
