@@ -1,0 +1,13 @@
+{
+  "name": "@repo/schema-and-type",
+  "version": "0.0.0",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "5.5.4",
+    "zod": "^3.25.56"
+  }
+}

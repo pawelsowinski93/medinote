@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "api": {
+      "rootDirectory": "apps/api"
+    },
+    "web": {
+      "rootDirectory": "apps/web"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "bun run --hot index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "dependencies": {
+    "@hono/swagger-ui": "^0.5.1",
+    "@hono/zod-openapi": "^0.19.8",
+    "@repo/schema-and-type": "workspace:*",
+    "@types/bun": "^1.2.15",
+    "@types/node": "^22.10.1",
+    "dotenv": "^16.4.7",
+    "hono": "^4.7.11",
+    "postgres": "^3.4.7",
+    "zod": "^3.25.56"
+  }
+}

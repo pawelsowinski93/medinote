@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@repo/schema-and-type": "workspace:*",
     "@repo/ui": "workspace:*",
+    "@repo/api-client": "workspace:*",
+    "@repo/react-query-client": "workspace:*",
+    "msw": "^2.10.1",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -18,11 +22,17 @@
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^20.10.6",
+    "@tanstack/react-query": "^5.80.6",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.18",
     "babel-plugin-react-native-web": "^0.19.10",
     "eslint": "^8.56.0",
     "eslint-config-next": "14.0.4",
     "typescript": "5.5.4"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }

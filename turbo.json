@@ -3,11 +3,12 @@
   "ui": "tui",
   "tasks": {
     "build": {
-      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*", ".env.local"],
       "outputs": ["dist/**", ".next/**", "!.next/cache/**"],
       "dependsOn": ["^build"]
     },
     "dev": {
+      "inputs": ["$TURBO_DEFAULT$", ".env*", ".env.local"],
       "cache": false,
       "persistent": true
     },
