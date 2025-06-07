@@ -3,7 +3,7 @@ import { testSchema } from "@repo/schema-and-type/test/schema";
 
 export const route = createRoute({
   method: "get",
-  path: "/test",
+  path: "/get-test-data",
   tags: ["test"],
   responses: {
     200: {

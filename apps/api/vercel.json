@@ -4,5 +4,9 @@
       "runtime": "edge"
     }
   },
-  "routes": [{ "src": "/(.*)", "dest": "index.ts" }]
+  "routes": [
+    { "src": "/doc", "dest": "index.ts" },
+    { "src": "/swagger", "dest": "index.ts" },
+    { "src": "/(.*)", "dest": "index.ts" }
+  ]
 }
