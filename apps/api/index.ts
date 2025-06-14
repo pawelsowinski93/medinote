@@ -48,6 +48,12 @@ app.route("/", testController);
 
 export const config = {
   runtime: "edge",
+  routes: [
+    {
+      src: "/api/(.*)",
+      dest: "/api/$1",
+    },
+  ],
 };
 
 // export default {
