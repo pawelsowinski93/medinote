@@ -1,12 +1,7 @@
 {
   "functions": {
-    "apps/api/index.ts": {
-      "runtime": "vercel-edge@2.5.0"
+    "index.ts": {
+      "runtime": "edge"
     }
-  },
-  "routes": [
-    { "src": "/doc", "dest": "/apps/api/index.ts" },
-    { "src": "/swagger", "dest": "/apps/api/index.ts" },
-    { "src": "/(.*)", "dest": "/apps/api/index.ts" }
-  ]
+  }
 }
