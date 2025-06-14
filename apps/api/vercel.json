@@ -1,12 +1,12 @@
 {
   "functions": {
-    "index.ts": {
+    "api/index.ts": {
       "runtime": "vercel-edge@2.5.0"
     }
   },
   "routes": [
-    { "src": "/doc", "dest": "index.ts" },
-    { "src": "/swagger", "dest": "index.ts" },
-    { "src": "/(.*)", "dest": "index.ts" }
+    { "src": "/doc", "dest": "/api/index.ts" },
+    { "src": "/swagger", "dest": "/api/index.ts" },
+    { "src": "/(.*)", "dest": "/api/index.ts" }
   ]
 }
