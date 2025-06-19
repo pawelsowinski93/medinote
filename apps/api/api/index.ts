@@ -5,8 +5,8 @@ import { handle } from "hono/vercel";
 const app = new OpenAPIHono();
 
 // routes
-app.route("/", testController);
-app.get("/", (c) => c.json({ message: "Hello World" }));
+app.route("/api", testController);
+app.get("/api", (c) => c.json({ message: "Hello World" }));
 
 const handler = handle(app);
 
