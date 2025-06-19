@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
-    "local:dev": "bun run --hot index.ts",
-    "dev": "vercel dev --listen 3002",
-    "build": "echo 'no build needed for edge'",
+    "dev": "bun run --hot api/index.ts",
     "start": "vercel dev"
   },
   "keywords": [],
@@ -23,6 +22,9 @@
     "hono": "^4.7.11",
     "postgres": "^3.4.7",
     "zod": "^3.25.56"
+  },
+  "devDependencies": {
+    "vercel": "^40.1.0"
   },
   "engines": {
     "node": ">=18.0.0"
