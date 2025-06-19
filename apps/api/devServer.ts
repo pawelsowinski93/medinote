@@ -1,4 +1,4 @@
-import { honoApp } from "./prod";
+import { honoApp } from "./api";
 
 export default {
   fetch: honoApp.fetch,
