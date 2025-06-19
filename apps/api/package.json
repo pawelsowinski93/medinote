@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
-  "type": "module",
   "scripts": {
     "dev": "bun run --hot api/index.ts",
     "start": "vercel dev"
